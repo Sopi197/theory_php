@@ -23,10 +23,16 @@ echo PHP_EOL;
 // работает в браузере как html
 $str_html = "<p>Строка, которая <strong>содержит</strong> теги</p>";
 echo $str_html;
-
+// php работает в html
 ?>
-// php работает html
-<h2><?php echo $str_html; ?></h2>;
+
+<h1 style="color:red"><?php echo $str_html; ?></h1>;
+
+<?php
+// htmlspecialchars() очищает формуу и проверяет на валидацию
+// практика находится по адресу xamp/....
+
+echo 123;
 
 <?php
 
