@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Работа с HTML-формой</title>
+</head>
+
+<body>
+    <p>form_1</p>
+    <!-- если method не указать, то по умолчанию будет использоваться метод get, всегда в method нужно указывать post -->
+    <!-- target="_blank" открывает новое окно -->
+    <form action="form.php" method="post" target="_blank">
+        <label class="label" for="name">name </label>
+        <input type="text" name="name">
+        <label class="label" for="name">age </label>
+        <input type="text" name="age">
+        <input type="submit" value="отправить">
+    </form>
+    <p>form_2</p>
+    <form action="form-2.php" method="post">
+        <label class="label" for="name">name </label>
+        <input type="text" name="name">
+        <label class="label" for="name">age </label>
+        <input type="text" name="age">
+        <input type="submit" value="отправить">
+    </form>
+</body>
+
+</html>
