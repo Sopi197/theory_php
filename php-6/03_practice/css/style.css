@@ -1,0 +1,240 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.top_wrapper {
+    min-height: 300px;
+    background: rgb(182, 120, 182);
+    color: whitesmoke;
+}
+
+.container {
+    max-width: 1080px;
+}
+
+.top_wrapper {
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+}
+
+.top_nav_left {
+    font-weight: 600;
+}
+
+.top_nav {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 100px auto;
+}
+
+.top_nav_right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_nav_right li a {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(214, 195, 195);
+}
+
+.top_nav_right li a:hover {
+    color: aqua;
+}
+
+.top_middle {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.top_middle h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background: rgb(145, 15, 15);
+}
+
+.top_wrapper {
+    margin-bottom: 50px;
+}
+
+.news {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.news_wrapper {
+    margin-bottom: 40px;
+}
+
+.news_post_data {
+    margin-bottom: 30px;
+}
+
+.news_subtext {
+    margin: 12px 0 12px 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.news_text {
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.news_post_data {
+    font-style: italic;
+}
+
+.news_text:hover, .news_subtext:hover {
+    color: royalblue;
+}
+
+.button_older_posts {
+    display: flex;
+    justify-content: end;
+}
+
+.button_older_posts a {
+    background-color: royalblue;
+    color: aliceblue;
+    padding: 3px 20px 4px 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.button_older_posts a:hover {
+    background-color: yellowgreen;
+}
+
+span.arrow {
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    top: 2px;
+}
+
+.footer {
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.footer_wrapper_icons {
+    display: flex;
+    margin: 0 auto 30px auto;
+}
+
+.footer_copy {
+    margin: 0 auto;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.icon {
+    margin-right: 30px;
+    font-size: 26px;
+}
+
+.icon-vk, .icon-youtube, .icon-github {
+    color: white;
+    padding: 12px;
+    background: black;
+    border-radius: 50%;
+}
+
+.icon-vk:hover, .icon-youtube:hover, .icon-github:hover {
+    background: red;
+}
+
+/* about */
+
+.top_middle_subtext.about {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.wrapper_about {
+    background-color: rgba(202, 129, 76, 0.973);
+}
+
+.text {
+    max-width: 700px;
+    margin: 30px auto 30px auto;
+}
+
+hr {
+    background-color: black;
+}
+
+.wrapper_post {
+    background-color: rgb(91, 91, 142);
+}
+
+.top_middle.post h1 {
+    font-size: 42px;
+    line-height: 44px;
+}
+
+.top_middle.post {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.top_middle_subtext.post {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+
+.post_ex p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.top_wrapper.contact {
+    background: palevioletred;
+}
+
+.form_contact {
+    margin: 30px 0;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+input, textarea {
+    display: block;
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-bottom: rgb(5, 14, 4) 1px solid;
+    width: 630px;
+    resize: none;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+.form_contact p {
+    color: rgba(2, 2, 0, 0.584);
+    font-size: 25px;
+}
+
+input[type="submit"] {
+    color: whitesmoke;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 0px;
+    background-color: #4a4af9;
+    max-width: 120px;
+}
