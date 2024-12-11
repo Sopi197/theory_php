@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(230, 202, 202);
+}
+
+.form {
+    margin: 50px auto 0 auto;
+    max-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    transition: all 1s;
+    font-size: 20px;
+    color: brown;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(93, 93, 181);
+}
